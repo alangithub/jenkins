@@ -17,7 +17,7 @@ node {
 
     try {
         stage('Test') {
-            sh 'echo "Fail!"; exit 1'
+            sh 'echo "Testing now"'
         }
         echo 'This will run only if successful'
     } catch (e) {
